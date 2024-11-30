@@ -23,7 +23,7 @@ Este es un proyecto de una red social desarrollado como parte de un ejercicio pr
 
 ### Frontend
 - **React**: Framework principal para la interfaz de usuario.
-- **CSS / Tailwind CSS** (o cualquier preprocesador definido): Para el diseño y estilo de los componentes.
+- **CSS**: Para el diseño y estilo de los componentes.
 - **Axios o Fetch**: Para realizar las solicitudes HTTP hacia la API.
 
 ### API Externa
@@ -47,7 +47,3 @@ src/
 │   └── ...
 ├── assets/           // Imágenes y recursos estáticos
 └── App.jsx           // Componente principal
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
