@@ -1,0 +1,184 @@
+nav {
+    position: fixed;
+    z-index: 100;
+    height: 100%;
+    background-color: #191919;
+    margin-top: -25px;
+    padding: 20px 0px 10px 10px; 
+    border-right: #707070 0.1px solid;
+}
+
+nav.hidden {
+    display: none;
+}
+
+.navP1 {
+    margin: 25px 0px 0px 5px;
+}
+
+
+.pHome{
+    background-color: #3a3a3a;
+    margin-bottom: 5px;
+}
+
+.home{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 3px 0px 6px 0px;
+}
+
+.orders, .content, .customers, .analytics, .discounts {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 3px 0px 6px 10px;
+}
+
+
+.svgContent, .svgAnalytics, .svgDiscounts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 7px;
+}
+
+.svgCustomers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2px 0px 8px;
+}
+
+.svgHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2px 0px 8px;
+}
+
+.svgOrders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3px 0px 9px;
+}
+
+.pHome, .pOrders, .pContent, .pCustomers, .pAnalytics, .pDiscounts {
+    display: flex;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 6px 0px 6px 10px;
+    margin: 0px 10px 5px 0px;
+}
+
+.pHome:hover, .pOrders:hover, .pContent:hover, .pCustomers:hover, .pAnalytics:hover, .pDiscounts:hover {
+    background-color: #3a3a3a;
+}
+
+.navP2 {
+    margin: 10px 0px 0px 5px;
+}
+
+.sales{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.pSales{
+    display: flex;
+    padding: 26px 0px 10px 10px;
+}
+
+.svgSales{
+    fill: #969696;
+}
+
+.svgSales:hover, .sales:hover{
+    color: #1a1a1a;
+    fill: #1a1a1a;
+}
+
+.svgOnline{
+    filter:brightness(0) saturate(0) invert(100%) sepia(13%) saturate(137%) hue-rotate(169deg) brightness(95%) contrast(87%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pOnline{
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    border-radius: 7px;
+}
+
+.online{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0px 0px 0px 10px;
+}
+
+.navP3 {
+    margin: 10px 0px 0px 5px;
+}
+
+.apps{
+    padding-right: 167px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pApps{
+    display: flex;
+    padding: 13px 0px 3px 10px;
+    margin-right: 15px;
+}
+
+.svgApps{
+    fill: #969696;
+    justify-content: center;
+    align-items: ce;
+}
+
+.svgApps:hover, .apps:hover{
+    color: #1a1a1a;
+    fill: #1a1a1a;
+}
+
+.add{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.svgAdd {
+    fill:#8a8a8a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 6px 0px 10px;
+}
+.pAdd{
+    display: flex;
+    cursor: pointer;
+    color: #303030;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    border-radius: 7px;
+    padding: 0;
+    margin: 0px 10px 0px 0px;
+}
+
+.pAdd:hover{
+    background-color: #3a3a3a;
+}

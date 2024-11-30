@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.status {
+    margin-top: 100px;
+    background: linear-gradient(145deg, #1f1e1e, #242323);
+    box-shadow:  12px 12px 24px #191818,
+                 -12px -12px 24px #2b2a2a;
+    width: calc(32% - 50px);
+    margin: 20px auto; 
+    margin-left: 630px;
+    margin-top: 90px;
+    border-radius: 5px;
+}
+
+.statusOption{
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    background:none;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    transition: 1s;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.statusOption:hover{
+    background-color: #595555;
+    color: #ffffff;
+}
+
+#statusOptionA{
+    background: linear-gradient(227deg,
+    #b800b1 0%,
+    #f50000 100%);
+    background-color: #696464;
+    color: #ffffff;
+}
+
+.statusProfilePictureP{
+    margin: -231px -212px;
+    transform: scale(0.2);
+}
+
+.statusProfilePicture{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.line{
+    height: 5px;
+    width: 80px;
+    margin-left: 20px;
+    border: none;
+    background: linear-gradient(227deg,
+    #b800b1 0%,
+    #f50000 100%);
+    border-radius: 5px;
+}
+
+.statusInput{
+    padding-top: 14px;
+    width: 400px;
+}
+
+.statusInputT{
+    color: #595555;
+    border: none;
+    background-color:transparent;
+    display: flex;
+    align-items: first baseline;
+}
+
+.statusEmoji{
+    display: flex;
+    margin: 20px 0px; 
+    padding: 0px 0px 10px 0px;
+    align-items: center;
+}
+
+.statusEmojiButton {
+    background-color: transparent;
+    color: #c0b4b4;
+    border: none;
+    cursor: pointer;
+    padding: 5px 5px;
+    margin: 0px 5px;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.statusEmojiButton:hover {
+    color: #ffffff;
+    background-color: #4d4c4c;
+}
+
+.btnSend {
+    font-family: inherit;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #4dc7d9 0%,#66a6ff 100%);
+    color: white;
+    padding: 0.8em 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .btnSend:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btnSend:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btnSend span {
+    display: block;
+    margin-left: 0.4em;
+    transition: all 0.3s;
+  }
+  
+  .btnSend svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+    transition: all 0.3s;
+  }
+  
+  .btnSend .svgWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 0.5em;
+    transition: all 0.3s;
+  }
+  
+  .btnSend:hover .svgWrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .btnSend:hover svg {
+    transform: rotate(45deg);
+  }
+  
+  
