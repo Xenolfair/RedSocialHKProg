@@ -1,5 +1,5 @@
-# Red Social HK / Programación 4to Semestre Parcial Final
-# Ingeniería de Software CIAF
+# 🌐 Red Social HK / Programación 4to Semestre Parcial Final
+# 📓Ingeniería de Software CIAF
 # 🎯Miguel Angel Ballesteros Gallego
 
 Este es un proyecto de una red social desarrollado como parte de un ejercicio práctico para explorar tecnologías y mejores prácticas en desarrollo web. La aplicación permite interactuar con imágenes, comentarios y reacciones, utilizando datos externos de la API de Rick and Morty.
@@ -29,9 +29,12 @@ Este es un proyecto de una red social desarrollado como parte de un ejercicio pr
 ### API Externa
 - **Rick and Morty API**: Utilizada para obtener datos dinámicos sobre personajes.
 
-### Herramientas de Desarrollo
+### 🧑‍💻 Herramientas de Desarrollo
 - **GitHub**: Para control de versiones y colaboración.
 - **Vite** (opcional): Para desarrollo rápido y eficiente con React.
+
+
+### 💬 Hecho con mucho esfuerzo :]
 
 ## 📂 Estructura del Proyecto
 
@@ -47,3 +50,5 @@ src/
 │   └── ...
 ├── assets/           // Imágenes y recursos estáticos
 └── App.jsx           // Componente principal
+
+
