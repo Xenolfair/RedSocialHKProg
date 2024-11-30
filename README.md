@@ -1,69 +1,52 @@
-# Getting Started with Create React App
+# Red Social HK / Programación 4to Semestre Parcial Final
+# Ingeniería de Software CIAF
+# 🎯Miguel Angel Ballesteros Gallego
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto de una red social desarrollado como parte de un ejercicio práctico para explorar tecnologías y mejores prácticas en desarrollo web. La aplicación permite interactuar con imágenes, comentarios y reacciones, utilizando datos externos de la API de Rick and Morty.
 
-## Available Scripts
+## 🚀 Funcionalidades
 
-In the project directory, you can run:
+- **Visualización de Tarjetas**: 
+  - Muestra tarjetas con imágenes, comentarios y secciones de interacción similares a redes sociales.
+  - Las imágenes provienen de servicios externos (anteriormente Pinterest).
 
-### `npm start`
+- **Consumo de API**: 
+  - Integración con la [API de Rick and Morty](https://rickandmortyapi.com/) para obtener datos de personajes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Interacciones en Tarjetas**: 
+  - Los usuarios pueden reaccionar, comentar y ver interacciones relacionadas con cada tarjeta.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Migración a React**: 
+  - Reestructuración del proyecto en React utilizando componentes reutilizables y mejores prácticas.
 
-### `npm test`
+## 🛠️ Tecnologías Usadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
+- **React**: Framework principal para la interfaz de usuario.
+- **CSS / Tailwind CSS** (o cualquier preprocesador definido): Para el diseño y estilo de los componentes.
+- **Axios o Fetch**: Para realizar las solicitudes HTTP hacia la API.
 
-### `npm run build`
+### API Externa
+- **Rick and Morty API**: Utilizada para obtener datos dinámicos sobre personajes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Herramientas de Desarrollo
+- **GitHub**: Para control de versiones y colaboración.
+- **Vite** (opcional): Para desarrollo rápido y eficiente con React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Estructura del Proyecto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```plaintext
+src/
+├── components/
+│   ├── Card.jsx      // Componente para representar las tarjetas
+│   ├── CommentBox.jsx // Componente para gestionar comentarios
+│   ├── ReactionBar.jsx // Componente para las reacciones
+│   └── ...
+├── services/
+│   ├── api.js        // Configuración y métodos para consumir la API
+│   └── ...
+├── assets/           // Imágenes y recursos estáticos
+└── App.jsx           // Componente principal
 
 ### `npm run build` fails to minify
 
